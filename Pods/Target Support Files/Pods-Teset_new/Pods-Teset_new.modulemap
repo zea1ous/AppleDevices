@@ -1,0 +1,6 @@
+framework module Pods_Teset_new {
+  umbrella header "Pods-Teset_new-umbrella.h"
+
+  export *
+  module * { export * }
+}

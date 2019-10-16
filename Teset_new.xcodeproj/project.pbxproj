@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		589FB65F235730D5000D8693 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FB65E235730D5000D8693 /* DeviceTableViewCell.swift */; };
+		589FB66123574213000D8693 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FB66023574213000D8693 /* Device.swift */; };
+		589FB6632357431D000D8693 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FB6622357431D000D8693 /* DetailViewController.swift */; };
+		82422EF62898EE069D8346F5 /* Pods_Teset_new.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1315E11EAF642999B9655F2 /* Pods_Teset_new.framework */; };
+		BE6A0B9422C1FEA40054CB6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6A0B9322C1FEA40054CB6D /* AppDelegate.swift */; };
+		BE6A0B9822C1FEA40054CB6D /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6A0B9722C1FEA40054CB6D /* DevicesViewController.swift */; };
+		BE6A0B9D22C1FEA50054CB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6A0B9C22C1FEA50054CB6D /* Assets.xcassets */; };
+		BE6A0BA022C1FEA50054CB6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6A0B9E22C1FEA50054CB6D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C42B7E9E6BC5482E2278B08 /* Pods-Teset_new.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teset_new.release.xcconfig"; path = "Target Support Files/Pods-Teset_new/Pods-Teset_new.release.xcconfig"; sourceTree = "<group>"; };
+		589FB65D23572F3D000D8693 /* Teset_new.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Teset_new.entitlements; sourceTree = "<group>"; };
+		589FB65E235730D5000D8693 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		589FB66023574213000D8693 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		589FB6622357431D000D8693 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		77B66BDA0D457DE6E80A3F05 /* Pods-Teset_new.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teset_new.debug.xcconfig"; path = "Target Support Files/Pods-Teset_new/Pods-Teset_new.debug.xcconfig"; sourceTree = "<group>"; };
+		BE6A0B9022C1FEA40054CB6D /* Teset_new.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teset_new.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6A0B9322C1FEA40054CB6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE6A0B9722C1FEA40054CB6D /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
+		BE6A0B9C22C1FEA50054CB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE6A0B9F22C1FEA50054CB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE6A0BA122C1FEA50054CB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1315E11EAF642999B9655F2 /* Pods_Teset_new.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teset_new.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE6A0B8D22C1FEA40054CB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82422EF62898EE069D8346F5 /* Pods_Teset_new.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B98E71FB2C17665D2415C69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1315E11EAF642999B9655F2 /* Pods_Teset_new.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B8AF6F6C9B165E7B2288AC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77B66BDA0D457DE6E80A3F05 /* Pods-Teset_new.debug.xcconfig */,
+				4C42B7E9E6BC5482E2278B08 /* Pods-Teset_new.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE6A0B8722C1FEA40054CB6D = {
+			isa = PBXGroup;
+			children = (
+				BE6A0B9222C1FEA40054CB6D /* Teset_new */,
+				BE6A0B9122C1FEA40054CB6D /* Products */,
+				9B8AF6F6C9B165E7B2288AC5 /* Pods */,
+				7B98E71FB2C17665D2415C69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE6A0B9122C1FEA40054CB6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE6A0B9022C1FEA40054CB6D /* Teset_new.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE6A0B9222C1FEA40054CB6D /* Teset_new */ = {
+			isa = PBXGroup;
+			children = (
+				589FB65D23572F3D000D8693 /* Teset_new.entitlements */,
+				BE6A0B9322C1FEA40054CB6D /* AppDelegate.swift */,
+				BE6A0B9722C1FEA40054CB6D /* DevicesViewController.swift */,
+				589FB6622357431D000D8693 /* DetailViewController.swift */,
+				589FB65E235730D5000D8693 /* DeviceTableViewCell.swift */,
+				589FB66023574213000D8693 /* Device.swift */,
+				BE6A0B9C22C1FEA50054CB6D /* Assets.xcassets */,
+				BE6A0B9E22C1FEA50054CB6D /* LaunchScreen.storyboard */,
+				BE6A0BA122C1FEA50054CB6D /* Info.plist */,
+			);
+			path = Teset_new;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE6A0B8F22C1FEA40054CB6D /* Teset_new */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6A0BA422C1FEA60054CB6D /* Build configuration list for PBXNativeTarget "Teset_new" */;
+			buildPhases = (
+				E9021F3CA743A5DAA06CE87F /* [CP] Check Pods Manifest.lock */,
+				BE6A0B8C22C1FEA40054CB6D /* Sources */,
+				BE6A0B8D22C1FEA40054CB6D /* Frameworks */,
+				BE6A0B8E22C1FEA40054CB6D /* Resources */,
+				3EDA4FAD9735F65655D86ADA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teset_new;
+			productName = Teset_new;
+			productReference = BE6A0B9022C1FEA40054CB6D /* Teset_new.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE6A0B8822C1FEA40054CB6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = ragnaros;
+				TargetAttributes = {
+					BE6A0B8F22C1FEA40054CB6D = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = BE6A0B8B22C1FEA40054CB6D /* Build configuration list for PBXProject "Teset_new" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE6A0B8722C1FEA40054CB6D;
+			productRefGroup = BE6A0B9122C1FEA40054CB6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE6A0B8F22C1FEA40054CB6D /* Teset_new */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE6A0B8E22C1FEA40054CB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6A0BA022C1FEA50054CB6D /* LaunchScreen.storyboard in Resources */,
+				BE6A0B9D22C1FEA50054CB6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EDA4FAD9735F65655D86ADA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teset_new/Pods-Teset_new-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teset_new/Pods-Teset_new-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teset_new/Pods-Teset_new-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9021F3CA743A5DAA06CE87F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teset_new-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE6A0B8C22C1FEA40054CB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6A0B9822C1FEA40054CB6D /* DevicesViewController.swift in Sources */,
+				BE6A0B9422C1FEA40054CB6D /* AppDelegate.swift in Sources */,
+				589FB6632357431D000D8693 /* DetailViewController.swift in Sources */,
+				589FB65F235730D5000D8693 /* DeviceTableViewCell.swift in Sources */,
+				589FB66123574213000D8693 /* Device.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE6A0B9E22C1FEA50054CB6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE6A0B9F22C1FEA50054CB6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE6A0BA222C1FEA50054CB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE6A0BA322C1FEA50054CB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE6A0BA522C1FEA60054CB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B66BDA0D457DE6E80A3F05 /* Pods-Teset_new.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Teset_new/Teset_new.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 7JFVVL5G3N;
+				INFOPLIST_FILE = Teset_new/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RagnaCode.Teset-new";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE6A0BA622C1FEA60054CB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C42B7E9E6BC5482E2278B08 /* Pods-Teset_new.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Teset_new/Teset_new.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 7JFVVL5G3N;
+				INFOPLIST_FILE = Teset_new/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RagnaCode.Teset-new";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE6A0B8B22C1FEA40054CB6D /* Build configuration list for PBXProject "Teset_new" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6A0BA222C1FEA50054CB6D /* Debug */,
+				BE6A0BA322C1FEA50054CB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6A0BA422C1FEA60054CB6D /* Build configuration list for PBXNativeTarget "Teset_new" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6A0BA522C1FEA60054CB6D /* Debug */,
+				BE6A0BA622C1FEA60054CB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE6A0B8822C1FEA40054CB6D /* Project object */;
+}
