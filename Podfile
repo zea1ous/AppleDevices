@@ -7,6 +7,7 @@ target 'Teset_new' do
 
   # Pods for Teset_new
   pod 'SDWebImage'
+  pod 'SnapKit'
 
 
 end

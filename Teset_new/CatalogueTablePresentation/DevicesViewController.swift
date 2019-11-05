@@ -11,7 +11,7 @@ import UIKit
 class DevicesViewController: UIViewController {
     
     private let deviceCellIdentifier: String = "deviceCellIdentifier"
-    private var devices = Device.getDevices()
+    private var devices = FakeStorage().getDevices()
     
     lazy var tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .plain)
@@ -63,8 +63,7 @@ extension DevicesViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        let detailVC = DetailViewController()
-        detailVC.configure(devices[indexPath.row])
+        let detailVC = DetailViewController(device: devices[indexPath.row])
         navigationController?.pushViewController(detailVC, animated: true)
     }
     

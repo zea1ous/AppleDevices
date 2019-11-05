@@ -11,6 +11,8 @@ import SDWebImage
 
 class DetailViewController: UIViewController {
     
+    private let device: Device
+    
     private lazy var deviceImage: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -50,7 +52,18 @@ class DetailViewController: UIViewController {
         button.addTarget(self, action: #selector(handleBuy(_ :)), for: .touchUpInside)
         return button
     }()
-
+    
+    init(device: Device) {
+        self.device = device
+        super.init(nibName: nil, bundle: nil)
+        
+        configure(device)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -65,7 +78,7 @@ class DetailViewController: UIViewController {
         print("I've got this shit! AWESOME!")
     }
     
-    internal func configure(_ device: Device) {
+    private func configure(_ device: Device) {
         nameLabel.text = device.name
         priceLabel.text = "\(device.price) $"
         title = device.name

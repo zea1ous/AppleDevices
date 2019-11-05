@@ -3,13 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58585152237170730026C102 /* CatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58585151237170730026C102 /* CatalogueViewController.swift */; };
+		586809002371A9B0001990CC /* BannerCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586808FF2371A9B0001990CC /* BannerCollectionHeaderView.swift */; };
 		589FB65F235730D5000D8693 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FB65E235730D5000D8693 /* DeviceTableViewCell.swift */; };
 		589FB66123574213000D8693 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FB66023574213000D8693 /* Device.swift */; };
 		589FB6632357431D000D8693 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FB6622357431D000D8693 /* DetailViewController.swift */; };
+		58F07572237186B10093447E /* OfferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F07571237186B10093447E /* OfferCollectionViewCell.swift */; };
+		58F0757423719A3B0093447E /* TabletCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F0757323719A3B0093447E /* TabletCollectionViewCell.swift */; };
+		58F0757623719E870093447E /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F0757523719E870093447E /* Storage.swift */; };
 		82422EF62898EE069D8346F5 /* Pods_Teset_new.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1315E11EAF642999B9655F2 /* Pods_Teset_new.framework */; };
 		BE6A0B9422C1FEA40054CB6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6A0B9322C1FEA40054CB6D /* AppDelegate.swift */; };
 		BE6A0B9822C1FEA40054CB6D /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6A0B9722C1FEA40054CB6D /* DevicesViewController.swift */; };
@@ -19,10 +24,15 @@
 
 /* Begin PBXFileReference section */
 		4C42B7E9E6BC5482E2278B08 /* Pods-Teset_new.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teset_new.release.xcconfig"; path = "Target Support Files/Pods-Teset_new/Pods-Teset_new.release.xcconfig"; sourceTree = "<group>"; };
+		58585151237170730026C102 /* CatalogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewController.swift; sourceTree = "<group>"; };
+		586808FF2371A9B0001990CC /* BannerCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionHeaderView.swift; sourceTree = "<group>"; };
 		589FB65D23572F3D000D8693 /* Teset_new.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Teset_new.entitlements; sourceTree = "<group>"; };
 		589FB65E235730D5000D8693 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
 		589FB66023574213000D8693 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		589FB6622357431D000D8693 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		58F07571237186B10093447E /* OfferCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionViewCell.swift; sourceTree = "<group>"; };
+		58F0757323719A3B0093447E /* TabletCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletCollectionViewCell.swift; sourceTree = "<group>"; };
+		58F0757523719E870093447E /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		77B66BDA0D457DE6E80A3F05 /* Pods-Teset_new.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teset_new.debug.xcconfig"; path = "Target Support Files/Pods-Teset_new/Pods-Teset_new.debug.xcconfig"; sourceTree = "<group>"; };
 		BE6A0B9022C1FEA40054CB6D /* Teset_new.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teset_new.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6A0B9322C1FEA40054CB6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +55,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58F075772371A8350093447E /* CatalogueCollViewPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				58F0757C2371A9440093447E /* CollectionView */,
+				58585151237170730026C102 /* CatalogueViewController.swift */,
+			);
+			path = CatalogueCollViewPresentation;
+			sourceTree = "<group>";
+		};
+		58F075782371A85C0093447E /* CatalogueTablePresentation */ = {
+			isa = PBXGroup;
+			children = (
+				BE6A0B9722C1FEA40054CB6D /* DevicesViewController.swift */,
+				589FB65E235730D5000D8693 /* DeviceTableViewCell.swift */,
+			);
+			path = CatalogueTablePresentation;
+			sourceTree = "<group>";
+		};
+		58F075792371A8950093447E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				589FB66023574213000D8693 /* Device.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		58F0757A2371A8B90093447E /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				589FB6622357431D000D8693 /* DetailViewController.swift */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		58F0757B2371A8FC0093447E /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				58F0757523719E870093447E /* Storage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		58F0757C2371A9440093447E /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				58F0757323719A3B0093447E /* TabletCollectionViewCell.swift */,
+				58F07571237186B10093447E /* OfferCollectionViewCell.swift */,
+				586808FF2371A9B0001990CC /* BannerCollectionHeaderView.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		7B98E71FB2C17665D2415C69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +121,6 @@
 				77B66BDA0D457DE6E80A3F05 /* Pods-Teset_new.debug.xcconfig */,
 				4C42B7E9E6BC5482E2278B08 /* Pods-Teset_new.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,12 +145,13 @@
 		BE6A0B9222C1FEA40054CB6D /* Teset_new */ = {
 			isa = PBXGroup;
 			children = (
-				589FB65D23572F3D000D8693 /* Teset_new.entitlements */,
+				58F0757A2371A8B90093447E /* ProductDetail */,
+				58F075792371A8950093447E /* Models */,
+				58F075772371A8350093447E /* CatalogueCollViewPresentation */,
+				58F075782371A85C0093447E /* CatalogueTablePresentation */,
+				58F0757B2371A8FC0093447E /* Storage */,
 				BE6A0B9322C1FEA40054CB6D /* AppDelegate.swift */,
-				BE6A0B9722C1FEA40054CB6D /* DevicesViewController.swift */,
-				589FB6622357431D000D8693 /* DetailViewController.swift */,
-				589FB65E235730D5000D8693 /* DeviceTableViewCell.swift */,
-				589FB66023574213000D8693 /* Device.swift */,
+				589FB65D23572F3D000D8693 /* Teset_new.entitlements */,
 				BE6A0B9C22C1FEA50054CB6D /* Assets.xcassets */,
 				BE6A0B9E22C1FEA50054CB6D /* LaunchScreen.storyboard */,
 				BE6A0BA122C1FEA50054CB6D /* Info.plist */,
@@ -211,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58585152237170730026C102 /* CatalogueViewController.swift in Sources */,
 				BE6A0B9822C1FEA40054CB6D /* DevicesViewController.swift in Sources */,
 				BE6A0B9422C1FEA40054CB6D /* AppDelegate.swift in Sources */,
 				589FB6632357431D000D8693 /* DetailViewController.swift in Sources */,
+				586809002371A9B0001990CC /* BannerCollectionHeaderView.swift in Sources */,
+				58F0757423719A3B0093447E /* TabletCollectionViewCell.swift in Sources */,
+				58F0757623719E870093447E /* Storage.swift in Sources */,
+				58F07572237186B10093447E /* OfferCollectionViewCell.swift in Sources */,
 				589FB65F235730D5000D8693 /* DeviceTableViewCell.swift in Sources */,
 				589FB66123574213000D8693 /* Device.swift in Sources */,
 			);
